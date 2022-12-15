@@ -20,3 +20,5 @@ require "user.indentline"
 require "user.alpha"
 require "user.lsp"
 require "user.dap"
+
+vim.cmd[[ let g:go_def_mapping_enabled=0 ]]

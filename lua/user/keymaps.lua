@@ -81,3 +81,7 @@ keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
 -- Lsp
 keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format{ async = true }<cr>", opts)
+
+-- PHP
+keymap("n", "<C-l>", ":!php -ln %<cr>", opts)
+keymap("n", "<C-f>", ":!php -f %<cr>", opts)

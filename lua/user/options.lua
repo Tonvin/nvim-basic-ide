@@ -6,7 +6,7 @@ vim.opt.conceallevel = 0                        -- so that `` is visible in mark
 vim.opt.fileencoding = "utf-8"                  -- the encoding written to a file
 vim.opt.hlsearch = true                         -- highlight all matches on previous search pattern
 vim.opt.ignorecase = true                       -- ignore case in search patterns
-vim.opt.mouse = "r"                             -- allow the mouse to be used in neovim
+vim.opt.mouse = "a"                             -- allow the mouse to be used in neovim
 vim.opt.pumheight = 10                          -- pop up menu height
 vim.opt.showmode = false                        -- we don't need to see things like -- INSERT -- anymore
 vim.opt.showtabline = 0                         -- always show tabs
@@ -42,4 +42,5 @@ vim.opt.formatoptions:remove({ "c", "r", "o" }) -- This is a sequence of letters
 vim.opt.linebreak = true
 
 vim.opt.relativenumber = true
+-- vim.opt.switchbuf = usetab
 vim.g.copilot_assume_mapped = true

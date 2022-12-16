@@ -9,6 +9,10 @@ bufferline.setup {
     right_mouse_command = "Bdelete! %d", -- can be a string | function, see "Mouse actions"
     offsets = { { filetype = "NvimTree", text = "", padding = 1 } },
     separator_style = "thin", -- | "thick" | "thin" | { 'any', 'any' },
+    numbers = function(opts)
+        if vim.api.nvim_get_current_buf() == opts.id then return "" end
+        return opts.ordinal
+    end,
   },
 
   highlights = {

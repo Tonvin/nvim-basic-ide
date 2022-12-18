@@ -33,14 +33,19 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "gt", ":bnext<CR>", opts)
 keymap("n", "gT", ":bprevious<CR>", opts)
+keymap("n", "gl", ":bnext<CR>", opts)
+keymap("n", "gh", ":bprevious<CR>", opts)
 keymap("n", "<leader>b", ":ls<CR>:b", opts)
 
 -- Clear highlights
-keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
+-- keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
-keymap("n", "<leader>w",  ":Bdelete<cr>", opts)
+keymap("n", "<leader>c",  ":Bdelete<CR>", opts)
+
+-- Save buffers
+keymap("n", "<leader>w",  ":w<CR>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)

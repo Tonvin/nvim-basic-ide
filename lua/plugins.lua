@@ -65,6 +65,7 @@ return packer.startup(function(use)
   use { "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" }
   use "EdenEast/nightfox.nvim" -- Packer
   use "ayu-theme/ayu-vim"
+  use "wuelnerdotexe/vim-enfocado"
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin

@@ -43,6 +43,7 @@ keymap("n", "<leader>b", ":ls<CR>:b", opts)
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 keymap("n", "<leader>c",  ":Bdelete<CR>", opts)
+keymap("n", "<leader>q",  ":quit<CR>", opts)
 
 -- Save buffers
 keymap("n", "<leader>w",  ":w<CR>", opts)

@@ -8,6 +8,9 @@ local servers = {
 	"jsonls",
 	"yamlls",
 	"gopls",
+	"intelephense",
+	"phpactor",
+	"psalm",
 }
 
 local settings = {

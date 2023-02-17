@@ -11,6 +11,12 @@ local servers = {
 	"intelephense",
 	"phpactor",
 	"psalm",
+	"jq",
+	"json-lsp",
+	"jsonlint",
+	"phpcs",
+	"phpstan",
+	"typescript-language-server",
 }
 
 local settings = {

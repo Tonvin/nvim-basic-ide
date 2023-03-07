@@ -43,5 +43,8 @@ luac.out
 plugin/packer_compiled.lua
 java-debug/
 vscode-java-test/
+<<<<<<< HEAD
 
 pack
+=======
+>>>>>>> 6eb2c3c4cc42d7bb113ed5cfb07a88b99e86ae3c

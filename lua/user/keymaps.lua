@@ -43,7 +43,7 @@ keymap("n", "gh", ":bprevious<CR>", opts)
 keymap("n", "<leader>b", ":ls<CR>:b", opts)
 
 -- Clear highlights
-keymap("n", "<leader>h", "<cmd>nohl<CR>", opts)
+keymap("n", "<leader>n", "<cmd>nohl<CR>", opts)
 
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
@@ -100,3 +100,4 @@ keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format{ async = true }<cr>", opt
 -- PHP
 keymap("n", "<C-l>", ":!php -ln %<cr>", opts)
 keymap("n", "<C-f>", ":!php -f %<cr>", opts)
+keymap("n", "<C-g>", ":!go run %<cr>", opts)

@@ -55,6 +55,7 @@ keymap("n", "<leader>w",  ":w<CR>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
+keymap("n", "<F2>", ":set paste<CR>o", opts)
 
 -- Insert --
 -- Press jk fast to enter
